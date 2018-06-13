@@ -1,7 +1,6 @@
 package test.ndk.basecommonmodule.base;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.LinearLayout;
 
 import test.ndk.basecommonmodule.R;
@@ -25,10 +24,6 @@ public abstract class BaseLinearActivity extends BaseActivity {
         mLlRoot = (LinearLayout) findViewById(R.id.ll_root);
     }
 
-    @Override
-    public void initView() {
-        Log.d(TAG, "initView: ");
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

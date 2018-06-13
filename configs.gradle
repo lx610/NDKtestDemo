@@ -34,7 +34,14 @@ ext{
             "retrofit-adapter-rxjava"  : "com.squareup.retrofit2:adapter-rxjava:${version["retrofitSdkVersion"]}",
             "junit"                    : "junit:junit:4.12",
             "okhttp3"                  : "com.squareup.okhttp3:okhttp:3.4.2",
+            "urlManager"               : "me.jessyan:retrofit-url-manager:1.2.5",
             "gson"                     : "com.google.code.gson:gson:2.6.2",
+
+            "retrofit2"                : "com.squareup.retrofit2:retrofit:2.0.2",
+            "converter-gson"                : "com.squareup.retrofit2:converter-gson:2.1.0",
+            "adapter-rxjava"                : "com.squareup.retrofit2:adapter-rxjava:2.1.0",
+
+
 
             "butterknife"              : "com.jakewharton:butterknife:8.4.0",
             "butterknife-apt"          : "com.jakewharton:butterknife-compiler:8.4.0",
@@ -50,6 +57,12 @@ ext{
             "rxcache-jolyglot-gson"    : "com.github.VictorAlbertos.Jolyglot:gson:0.0.3",
             "rxbinding-recyclerview-v7": "com.jakewharton.rxbinding:rxbinding-recyclerview-v7:0.4.0",
             "rxpermissions"            : "com.tbruyelle.rxpermissions:rxpermissions:0.9.1@aar",
+
+            "timber"                   : "com.jakewharton.timber:timber:4.1.2",
+
+            "timber"                   : "com.jakewharton.timber:timber:4.1.2",
+            "timber"                   : "com.jakewharton.timber:timber:4.1.2",
+
 
     ]
 }
